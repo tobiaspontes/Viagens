@@ -105,18 +105,9 @@ p > a.info::after {
 }
 
 div.video {
-    margin: 0px -20px 30px -20px;
-    padding: 20px;
-    padding-bottom: 58%; /* configurações para tornar o vídeo responsivo*/
+    padding: 10px;
+    padding-bottom: 1%; /* configurações para tornar o vídeo responsivo*/
     position: relative; /* configurações para tornar o vídeo responsivo*/
-}
-
-div.video > iframe { /* configurações para tornar o vídeo responsivo*/
-    position: absolute;
-    top: 5%;
-    left: 5%;
-    width: 90%;
-    height: 90%;
 }
 
 ul.resumo {
