@@ -131,3 +131,13 @@ footer > p {
     padding: 5px;
     border-radius: 0px;
 }
+
+a#rodape {
+    background-color: black;
+    color: white;
+    text-decoration: none;
+}
+
+a#rodape:hover {
+    text-decoration: underline;
+}
