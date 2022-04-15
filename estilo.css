@@ -15,6 +15,7 @@
     --cor3: #D6C9C3;
     --cor4: #EDCCED;
     --cor5: #7E8EE6;
+    --cor6: rgb(251, 249, 132);
 
     /* fontes utilizadas no projeto*/
     --fonte-padrao: Arial, Verdana, Helvetica, sans-serif;
@@ -33,27 +34,6 @@ h1 {
     text-align: center;
     padding: 10px;
     text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.445);
-}
-
-nav {
-    background-color: var(--cor5);
-    padding: 2px;
-    font-family: var(--fonte-padrao);
-    font-size: small;
-}
-
-nav a {
-    color: white;
-    padding: 2px;
-    text-decoration: none;
-    font-weight: bold;
-    border-radius: 5px;
-    transition-duration: 0.5s;
-}
-
-nav a:hover {
-    background-color: var(--cor3);
-    color: var(--cor5);
 }
 
 main {
@@ -83,6 +63,11 @@ p {
     text-indent: 20px;
     background-color: var(--cor1);
     border-radius: 5px;
+}
+
+p.volta {
+    text-align: right;
+    font-weight: bold;
 }
 
 p.citacao {
@@ -140,4 +125,78 @@ a#rodape {
 
 a#rodape:hover {
     text-decoration: underline;
+}
+
+table {
+    font-family: Arial, Helvetica, sans-serif;
+    border-collapse: collapse;
+    width: 640px;
+    margin: auto;
+}
+
+caption {
+    font-family: var(--fonte-header);
+    background-image: linear-gradient(to bottom, var(--cor4), var(--cor2));
+    font-size: 2em;
+    color: black;
+    text-align: center;
+    padding: 10px;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.445);
+}
+
+th {
+    background-color: var(--cor4);
+    color: black;
+    text-align: center;
+    border: 1px solid rgba(0, 0, 0, 0.205);
+    padding: 10px;
+}
+
+
+td a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    border-radius: 5px;
+    transition-duration: 0.5s;
+}
+
+td a:hover {
+    padding: 5px;
+    background-color: var(--cor3);
+    color: black
+}
+
+td {
+    background-color: peru;
+    color: white;
+    border: 1px solid rgba(0, 0, 0, 0.205);
+    padding: 10px;
+    text-decoration: none;
+    font-weight: bold;
+    transition-duration: 0.5s;
+}
+
+td.centralizado {
+    text-align: center;
+}
+
+#clocal {
+    width: 250px;
+}
+
+#cepoca {
+    width: 90px;
+}
+
+#chospedagem {
+    width: 250px;
+}
+
+#cdistancia {
+    width: 50px;
+}
+
+div#container {
+    overflow-x: auto;
 }

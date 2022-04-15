@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="pt-br">
+<html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -9,70 +9,317 @@
     <link rel="shortcut icon" href="imagens/favicon.ico" type="image/x-icon">
 </head>
 <body>
-    <header>
-        <h1>RECORDAÇÕES DE VIAGENS</h1>
-        <nav>
-            <ul class="c4">
-                <li><a href="ali.html" rel="next">Ág.Lindóia</a></li>
-                <li><a href="asp.html" rel="next">Ág.S.Pedro</a></li>
-                <li><a href="ara.html" rel="next">Aracaju</a></li>
-                <li><a href="bbo.html" rel="next">B.Bonita</a></li>
-                <li><a href="bel.html" rel="next">Belém</a></li>
-                <li><a href="bom.html" rel="next">Bombinhas</a></li>
-                <li><a href="bon.html" rel="next">Bonito</a></li>
-                <li><a href="bor.html" rel="next">Borborema</a></li>
-                <li><a href="bro.html" rel="next">Brotas</a></li>
-                <li><a href="cjo.html" rel="next">C.Jordão</a></li>
-                <li><a href="cap.html" rel="next">Capitólio</a></li>
-                <li><a href="cxs.html" rel="next">Cx. do Sul</a></li>
-                <li><a href="fst.html" rel="next">F.S.Teresa</a></li>
-                <li><a href="for.html" rel="next">Fortaleza</a></li>
-                <li><a href="foz.html" rel="next">F.do Iguaçu</a></li>
-                <li><a href="gon.html" rel="next">Gonçalves</a></li>
-                <li><a href="grp.html" rel="next">Guarapari</a></li>
-                <li><a href="gua.html" rel="next">Guarujá</a></li>
-                <li><a href="jpe.html" rel="next">J.Pessoa</a></li>
-                <li><a href="lsa.html" rel="next">Lag.Santa</a></li>
-                <li><a href="lju.html" rel="next">L.de Judá</a></li>
-                <li><a href="mac.html" rel="next">Maceió</a></li>
-                <li><a href="mve.html" rel="next">Mte Verde</a></li>
-                <li><a href="oup.html" rel="next">Ouro Preto</a></li>
-                <li><a href="per.html" rel="next">Pernamb.</a></li>
-                <li><a href="pca.html" rel="next">P.de Caldas</a></li>
-                <li><a href="por.html" rel="next">Porto</a></li>
-                <li><a href="psg.html" rel="next">P.Seguro</a></li>
-                <li><a href="rqu.html" rel="next">Rio Quente</a></li>
-                <li><a href="slo.html" rel="next">S.Lourenço</a></li>
-                <li><a href="tju.html" rel="next">Ter. Jurema</a></li>
-                <li><a href="index.html" rel="next">Tiradentes</a></li>
-                <li><a href="uba.html" rel="next">Ubatuba</a></li>
-                <li><a href="vrg.html" rel="next">Virgínia</a></li>
-            </ul>            
-        </nav>
-    </header>
-    <main>
-        <article id="tiradentes">
-            <h2>TIRADENTES</h2>
-                <ul class="resumo">
-                    <li>Época da viagem: 12/2007</li>
-                    <li>Hospedagem: Pousada da Terra</li>
-                    <li>Distância de Ribeirão Preto: 493 Km</li>
-                </ul>
-                
-            <p>Em dezembro de 2007, visitamos a cidade de Tiradentes em Minas Gerais. Passamos o <em>reveillon</em> naquela cidade histórica. Experimentamos a típica comida mineira e visitamos igrejas e monumentos históricos que fazem referência a Tiradentes (Joaquim José da Silva Xavier).</p>
-
-            <div class="video"><video width="480" height="315" controls src="videos/tir00.m4v" type="video/mp4"></video></div> 
-
-            <details>
-                <p class="citacao">A Cidade de Tiradentes foi fundada por volta de 1702, quando os paulistas descobriram ouro nas encostas da Serra de São José, dando origem a um arraial batizado com o nome de Santo Antônio do Rio das Mortes. O arraial posteriormente, passou a ser conhecido como Arraial Velho, para diferenciá-lo do Arraial Novo do Rio das Mortes, a atual São João del Rei. Em 1718 o arraial foi elevado à vila, com o nome de São José, em homenagem ao príncipe D. José, Futuro rei de Portugal, passando em 1860, à categoria de cidade. Durante todo o século XVIII, a Vila de São José viveu da exploração de ouro e foi um dos importantes centros produtores de Minas Gerais.</p>
-                
-                <p class="citacao">No fim do século XIX os republicanos redescobrem a esquecida terra de Joaquim José da Silva Xavier, o "Tiradentes", fazem uma visita cívica à casa do vigário Toledo, onde se tramou a Inconfidência Mineira. Mas foi o inflamado Silva Jardim que, de passagem por São José, sugere em seu discurso que o nome da cidade fosse trocado para o do herói, em lugar de um rei português. Com a proclamação da república, por decreto de número 3 do governo provisório do estado, datado de 06 de dezembro de 1889, recebe a cidade o atual nome "Cidade e Município de Tiradentes". Fonte: <a href="https://www.tiradentes.mg.gov.br/pagina/6427/Hist%C3%B3ria%20e%20Turismo" target="_blank" class="info">Prefeitura de Tiradentes</a></p>
-            </details>
-
-        </article>
-    </main>
-    <footer>
-        <p>&copy; <a href="https://github.com/tobiaspontes" target="_blank" id="rodape">João Tobias da Silva Pontes</a></p>
-    </footer>
+    <div id="container">
+        <table>
+            <caption>Recordações de Viagens</caption>
+            <thead>
+                <th scope="col" id="clocal">Local</th>
+                <th scope="col" id="cepoca">Época</th>
+                <th scope="col" id="chospedagem">Hospedagem</th>
+                <th scope="col" id="cdistancia">Distância</th>
+            </thead>
+            <tbody>
+                <tr>
+                    <td><a href="ali.html">Águas de Lindóia</a></td>
+                    <td class="centralizado">11/2018</td>
+                    <td>Hotel Mantovani</td>
+                    <td class="centralizado">238 Km</td>
+                </tr>
+                <tr>
+                    <td rowspan="2"><a href="asp.html">Águas de São Pedro</a></td>
+                    <td class="centralizado">06/2017</td>
+                    <td>Hotel Portal das Águas</td>
+                    <td rowspan="2" class="centralizado">200 Km</td>
+                </tr>
+                <tr>
+                    <td class="centralizado">10/2020</td>
+                    <td>LS Villas Hotel e SPA</td>
+                </tr>
+                <tr>
+                    <td><a href="ara.html">Aracaju</a></td>
+                    <td class="centralizado">02/2017</td>
+                    <td>Celi Hotel</td>
+                    <td class="centralizado">2.007 Km</td>
+                </tr>
+                <tr>
+                    <td><a href="bbo.html">Barra Bonita</a></td>
+                    <td class="centralizado">05/2013</td>
+                    <td>Hotel Beira Rio</td>
+                    <td class="centralizado">182 Km</td>
+                </tr>
+                <tr>
+                    <td><a href="bel.html">Belém</a></td>
+                    <td class="centralizado">10/2019</td>
+                    <td>Hotel Atrium Quinta de Pedras</td>
+                    <td class="centralizado">2.619 Km</td>
+                </tr>
+                <tr>
+                    <td><a href="bom.html">Bombinhas</a></td>
+                    <td class="centralizado">04/2011</td>
+                    <td>Pousada Vila do Bosque</td>
+                    <td class="centralizado">936 Km</td>
+                </tr>
+                <tr>
+                    <td><a href="bon.html">Bonito</a></td>
+                    <td class="centralizado">05/2014</td>
+                    <td>Hotel Marruá</td>
+                    <td class="centralizado">1.078 Km</td>
+                </tr>
+                <tr>
+                    <td rowspan="2"><a href="bor.html">Borborema</a></td>
+                    <td class="centralizado">02/2016</td>
+                    <td rowspan="2">Caminho Caipira</td>
+                    <td class="centralizado" rowspan="2">166 Km</td>
+                </tr>
+                <tr>
+                    <td class="centralizado">03/2019</td>
+                </tr>
+                <tr>
+                    <td rowspan="2"><a href="bro.html">Brotas</a></td>
+                    <td class="centralizado">02/2020</td>
+                    <td>Hotel Fazenda Vale da Mantiqueira</td>
+                    <td class="centralizado" rowspan="2">167 Km</td>
+                </tr>
+                <tr>
+                    <td class="centralizado">10/2021</td>
+                    <td>Pousada Caminho das Águas</td>
+                </tr>
+                <tr>
+                    <td><a href="cjo.html">Campos do Jordão</a></td>
+                    <td class="centralizado">02/2013</td>
+                    <td>AFPESP Campos do Jordão</td>
+                    <td class="centralizado">455 Km</td>
+                </tr>
+                <tr>
+                    <td><a href="cap.html">Capitólio</a></td>
+                    <td class="centralizado">01/2015</td>
+                    <td>Cyrilo's Palace Hotel</td>
+                    <td class="centralizado">232 Km</td>
+                </tr>
+                <tr>
+                    <td rowspan="2"><a href="cxs.html">Caxias do Sul</a></td>
+                    <td class="centralizado" rowspan="2">02/2016</td>
+                    <td>Hotel Personal Royal</td>
+                    <td class="centralizado" rowspan="2">1.268 Km</td>
+                </tr>
+                <tr>
+                    <td>Hotel Sky</td>
+                </tr>
+                <tr>
+                    <td rowspan="2"><a href="fst.html">Bocaina</a></td>
+                    <td class="centralizado">01/2017</td>
+                    <td rowspan="2">Hotel Fazenda Santa Teresa</td>
+                    <td class="centralizado" rowspan="2">136 Km</td>
+                </tr>
+                <tr>
+                    <td class="centralizado">10/2021</td>
+                </tr>
+                <tr>
+                    <td><a href="for.html">Fortalez</a>a</td>
+                    <td class="centralizado">12/2014</td>
+                    <td>Hotel Beira Mar</td>
+                    <td class="centralizado">2.629 Km</td>
+                </tr>
+                <tr>
+                    <td><a href="foz.html">Foz do Iguaçu</a></td>
+                    <td class="centralizado">11/2015</td>
+                    <td>Hotel Bella Itália</td>
+                    <td class="centralizado">1.034 Km</td>
+                </tr>
+                <tr>
+                    <td><a href="gon.html">Gonçalves</a></td>
+                    <td class="centralizado">11/2017</td>
+                    <td>Pousada O Montanhês</td>
+                    <td class="centralizado">377 Km</td>
+                </tr>
+                <tr>
+                    <td><a href="grp.html">Guarapari</a></td>
+                    <td class="centralizado">10/2016</td>
+                    <td>SESC Guarapari</td>
+                    <td class="centralizado">1.066 Km</td>
+                </tr><tr>
+                    <td rowspan="2"><a href="gua.html">Guarujá</a></td>
+                    <td class="centralizado">04/2014</td>
+                    <td rowspan="2">AFPESP Guarujá</td>
+                    <td class="centralizado" rowspan="2">415 Km</td>
+                </tr>
+                <tr>
+                    <td class="centralizado">09/2016</td>
+                </tr>
+                <tr>
+                    <td><a href="jpe.html">João Pessoa</a></td>
+                    <td class="centralizado">02/2020</td>
+                    <td>Laguna Praia Hotel</td>
+                    <td class="centralizado">2.606 Km</td>
+                </tr>
+                <tr>
+                    <td><a href="lsa.html">Lagoa Santa</a></td>
+                    <td class="centralizado">06/2014</td>
+                    <td>Hotel Thermas Lagoa Santa</td>
+                    <td class="centralizado">543 Km</td>
+                </tr>
+                <tr>
+                    <td rowspan="4"><a href="lju.html">São Sebastião do Paraíso</a></td>
+                    <td class="centralizado">01/2016</td>
+                    <td rowspan="4">Leão de Judá Charme Hotel</td>
+                    <td class="centralizado" rowspan="4">119 Km</td>
+                </tr>
+                <tr>
+                    <td class="centralizado">12/2016</td>
+                </tr>
+                <tr>
+                    <td class="centralizado">12/2017</td>
+                </tr>
+                <tr>
+                    <td class="centralizado">12/2019</td>
+                </tr>
+                <tr>
+                    <td><a href="mac.html">Maceió</a></td>
+                    <td class="centralizado">10/2009</td>
+                    <td>Hotel Thermas Lagoa Santa</td>
+                    <td class="centralizado">2.262 Km</td>
+                </tr>
+                <tr>
+                    <td><a href="mve.html">Monte Verde</a></td>
+                    <td class="centralizado">04/2014</td>
+                    <td>Pousada Cantinho das Estrelas</td>
+                    <td class="centralizado">383 Km</td>
+                </tr>
+                <tr>
+                    <td><a href="oup.html">Ouro Preto</a></td>
+                    <td class="centralizado">04/2017</td>
+                    <td>Pousada Minas Gerais</td>
+                    <td class="centralizado">591 Km</td>
+                </tr>
+                <tr>
+                    <td rowspan="2"><a href="per.html">Pernambuco</a></td>
+                    <td class="centralizado">04/2013</td>
+                    <td>Enotel Porto de Galinhas</td>
+                    <td class="centralizado" rowspan="2">2.491 Km</td>
+                </tr>
+                <tr>
+                    <td class="centralizado">02/2020</td>
+                    <td>Pousada Sítio da Prainha</td>
+                </tr>
+                <tr>
+                    <td rowspan="3"><a href="pca.html">Poços de Caldas</a></td>
+                    <td class="centralizado">07/2015</td>
+                    <td>AFPESP Poços de Caldas</td>
+                    <td class="centralizado" rowspan="3">188 Km</td>
+                </tr>
+                <tr>
+                    <td class="centralizado">04/2018</td>
+                    <td>Monreale Resort</td>
+                </tr>
+                <tr>
+                    <td class="centralizado">11/2019</td>
+                    <td>AFPESP Poços de Caldas</td>
+                </tr>
+                <tr>
+                    <td><a href="por.html">Porto</a></td>
+                    <td class="centralizado">05/2019</td>
+                    <td>Hotel HF Ipanema Park</td>
+                    <td class="centralizado">7.482 Km</td>
+                </tr>
+                <tr>
+                    <td><a href="psg.html">Porto Seguro</a></td>
+                    <td class="centralizado">10/2017</td>
+                    <td>La Torre Resort</td>
+                    <td class="centralizado">1.427 Km</td>
+                </tr>
+                <tr>
+                    <td rowspan="18"><a href="rqu.html">Rio Quente</a></td>
+                    <td class="centralizado">09/2005</td>
+                    <td rowspan="18">Rio Quente Resorts</td>
+                    <td class="centralizado" rowspan="18">461 Km</td>
+                </tr>
+                <tr>
+                    <td class="centralizado">04/2010</td>
+                </tr>
+                <tr>
+                    <td class="centralizado">10/2011</td>
+                </tr>
+                <tr>
+                    <td class="centralizado">10/2012</td>
+                </tr>
+                <tr>
+                    <td class="centralizado">10/2013</td>
+                </tr>
+                <tr>
+                    <td class="centralizado">02/2014</td>
+                </tr>
+                <tr>
+                    <td class="centralizado">08/2014</td>
+                </tr>
+                <tr>
+                    <td class="centralizado">04/2015</td>
+                </tr>
+                <tr>
+                    <td class="centralizado">06/2015</td>
+                </tr>
+                <tr>
+                    <td class="centralizado">02/2016</td>
+                </tr>
+                <tr>
+                    <td class="centralizado">02/2017</td>
+                </tr>
+                <tr>
+                    <td class="centralizado">02/2018</td>
+                </tr>
+                <tr>
+                    <td class="centralizado">02/2019</td>
+                </tr>
+                <tr>
+                    <td class="centralizado">04/2019</td>
+                </tr>
+                <tr>
+                    <td class="centralizado">06/2019</td>
+                </tr>
+                <tr>
+                    <td class="centralizado">10/2020</td>
+                </tr>
+                <tr>
+                    <td class="centralizado">06/2021</td>
+                </tr>
+                <tr>
+                    <td class="centralizado">02/2022</td>
+                </tr>
+                <tr>
+                    <td rowspan="2"><a href="slo.html">São Lourenço</a></td>
+                    <td class="centralizado">02/2018</td>
+                    <td>Hotel Fazenda Vale da Mantiqueira</td>
+                    <td class="centralizado" rowspan="2">438 Km</td>
+                </tr>
+                <tr>
+                    <td class="centralizado">02/2022</td>
+                    <td>AFPESP São Lourenço</td>
+                </tr>
+                <tr>
+                    <td><a href="tju.html">Iretama</a></td>
+                    <td class="centralizado">11/2016</td>
+                    <td>Lagos de Jurema Termas Resort</td>
+                    <td class="centralizado">658 Km</td>
+                </tr>
+                <tr>
+                    <td><a href="tir.html">Tiradentes</a></td>
+                    <td class="centralizado">12/2007</td>
+                    <td>Pousada da Terra</td>
+                    <td class="centralizado">493 Km</td>
+                </tr>
+                <tr>
+                    <td><a href="uba.html">Ubatuba</a></td>
+                    <td class="centralizado">10/2010</td>
+                    <td>AFPESP Ubatuba</td>
+                    <td class="centralizado">505 Km</td>
+                </tr>
+                <tr>
+                    <td><a href="vrg.html">Virgínia</a></td>
+                    <td class="centralizado">02/2018</td>
+                    <td>Hotel Fazenda Vale da Mantiqueira</td>
+                    <td class="centralizado">482 Km</td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
 </body>
 </html>
