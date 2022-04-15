@@ -128,16 +128,18 @@ a#rodape:hover {
 }
 
 table {
+    background-color: blueviolet;
+    position: relative;
     font-family: Arial, Helvetica, sans-serif;
     border-collapse: collapse;
-    width: 640px;
+    width: 100vw;
     margin: auto;
 }
 
 caption {
     font-family: var(--fonte-header);
     background-image: linear-gradient(to bottom, var(--cor4), var(--cor2));
-    font-size: 2em;
+    font-size: 1.5em;
     color: black;
     text-align: center;
     padding: 10px;
@@ -152,6 +154,10 @@ th {
     padding: 10px;
 }
 
+thead > tr > th {
+    position: sticky; /* para fixar o cabeçalho */
+    top: -1px;
+}
 
 td a {
     color: white;
@@ -168,7 +174,7 @@ td a:hover {
 }
 
 td {
-    background-color: peru;
+    
     color: white;
     border: 1px solid rgba(0, 0, 0, 0.205);
     padding: 10px;
@@ -179,24 +185,4 @@ td {
 
 td.centralizado {
     text-align: center;
-}
-
-#clocal {
-    width: 250px;
-}
-
-#cepoca {
-    width: 90px;
-}
-
-#chospedagem {
-    width: 250px;
-}
-
-#cdistancia {
-    width: 50px;
-}
-
-div#container {
-    overflow-x: auto;
 }
