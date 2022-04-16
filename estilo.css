@@ -89,10 +89,10 @@ p > a.info::after {
     content: '\00A0\1F517';
 }
 
-div.video {
-    padding: 10px;
-    padding-bottom: 1%; /* configurações para tornar o vídeo responsivo*/
-    position: relative; /* configurações para tornar o vídeo responsivo*/
+video {
+    margin: auto;
+    width: 370px;
+    display: block;
 }
 
 ul.resumo {
@@ -100,12 +100,6 @@ ul.resumo {
     list-style-type: '\2714\00A0\00A0';
     padding: 10px;
     font-weight: bold;
-}
-
-ul.c4 {
-    list-style-position: inside;
-    columns: 4;
-    color: var(--cor5);
 }
 
 footer > p {
